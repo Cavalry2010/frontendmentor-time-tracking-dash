@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-time-tracking-dashboard-with-flexbox-and-css-grid-kopZkfYtBO)
 - Live Site URL: [Time Tracking Dashboard](https://time-tracking-dash-alejandro.netlify.app)
 
 ## My process

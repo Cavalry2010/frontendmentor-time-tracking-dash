@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
+    <script defer src="./js/script.js"></script>
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+  <body>
+    <main>
+      <h1 class="sr-only">Time Tracking Dashboard</h1>
+      <div class="container align-center">
+        <div class="dashboard">
+          <div class="user-info-controls">
+            <div class="user-info">
+              <img
+                class="user-icon"
+                src="./images/image-jeremy.png"
+                alt="Jeremy Robson"
+              />
+              <p class="user-name">
+                Report for<br /><span class="name">Jeremy Robson</span>
+              </p>
+            </div>
+            <ul class="settings">
+              <li>
+                <button class="setting" type="button" data-setting="daily">
+                  Daily
+                </button>
+              </li>
+              <li>
+                <button class="setting" type="button" data-setting="weekly">
+                  Weekly
+                </button>
+              </li>
+              <li>
+                <button class="setting" type="button" data-setting="monthly">
+                  Monthly
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="category category--work" data-category="Work">
+            <div class="category-stats">
+              <div>
+                <h2 class="stat-heading">Work</h2>
+                <button
+                  class="more-info-btn"
+                  type="button"
+                  aria-label="More info"
+                >
+                  <img src="./images/icon-ellipsis.svg" alt="" />
+                </button>
+              </div>
+              <div>
+                <p class="stat-time">--hrs</p>
+                <p class="stat-previous">Last ---- - --hrs</p>
+              </div>
+            </div>
+          </div>
+          <div class="category category--play" data-category="Play">
+            <div class="category-stats">
+              <div>
+                <h2 class="stat-heading">Play</h2>
+                <button
+                  class="more-info-btn"
+                  type="button"
+                  aria-label="More info"
+                >
+                  <img src="./images/icon-ellipsis.svg" alt="" />
+                </button>
+              </div>
+              <div>
+                <p class="stat-time">--hrs</p>
+                <p class="stat-previous">Last ---- - --hrs</p>
+              </div>
+            </div>
+          </div>
+          <div class="category category--study" data-category="Study">
+            <div class="category-stats">
+              <div>
+                <h2 class="stat-heading">Study</h2>
+                <button
+                  class="more-info-btn"
+                  type="button"
+                  aria-label="More info"
+                >
+                  <img src="./images/icon-ellipsis.svg" alt="" />
+                </button>
+              </div>
+              <div>
+                <p class="stat-time">--hrs</p>
+                <p class="stat-previous">Last ---- - --hrs</p>
+              </div>
+            </div>
+          </div>
+          <div class="category category--exercise" data-category="Exercise">
+            <div class="category-stats">
+              <div>
+                <h2 class="stat-heading">Exercise</h2>
+                <button
+                  class="more-info-btn"
+                  type="button"
+                  aria-label="More info"
+                >
+                  <img src="./images/icon-ellipsis.svg" alt="" />
+                </button>
+              </div>
+              <div>
+                <p class="stat-time">--hrs</p>
+                <p class="stat-previous">Last ---- - --hrs</p>
+              </div>
+            </div>
+          </div>
+          <div class="category category--social" data-category="Social">
+            <div class="category-stats">
+              <div>
+                <h2 class="stat-heading">Social</h2>
+                <button
+                  class="more-info-btn"
+                  type="button"
+                  aria-label="More info"
+                >
+                  <img src="./images/icon-ellipsis.svg" alt="" />
+                </button>
+              </div>
+              <div>
+                <p class="stat-time">--hrs</p>
+                <p class="stat-previous">Last ---- - --hrs</p>
+              </div>
+            </div>
+          </div>
+          <div class="category category--self-care" data-category="Self Care">
+            <div class="category-stats">
+              <div>
+                <h2 class="stat-heading">Self Care</h2>
+                <button
+                  class="more-info-btn"
+                  type="button"
+                  aria-label="More info"
+                >
+                  <img src="./images/icon-ellipsis.svg" alt="" />
+                </button>
+              </div>
+              <div>
+                <p class="stat-time">--hrs</p>
+                <p class="stat-previous">Last ---- - --hrs</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Alejandro Perdomo</a>.
+      </div>
+    </footer>
+  </body>
+</html>
